@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Crispy chicken, saucy favorites and good times at Six Chicks. Explore our menu and plan your visit."
+      data-i18n-content="metaDescription"
+    >
+    <meta name="theme-color" content="#fff8ef">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title data-i18n="pageTitle">Six Chicks — Fried chicken &amp; good times</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner page-width">
+        <a class="brand" href="#home" aria-label="Six Chicks — home" data-i18n-aria="brandHome">
+          <img src="logo_1.jpg" alt="Six Chicks fried chicken circular logo" data-i18n-alt="logoAlt">
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Open navigation"
+          data-i18n-aria="openNavigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation" data-i18n-aria="mainNavigation">
+          <a href="#menu" data-i18n="navMenu">Menu</a>
+          <a href="#story" data-i18n="navStory">Our place</a>
+          <a href="#visit" data-i18n="navVisit">Find us</a>
+        </nav>
+
+        <div class="language-switch" role="group" aria-label="Choose language" data-i18n-aria="languageGroup">
+          <button class="language-button is-active" type="button" data-language="en" aria-pressed="true" aria-label="Switch language to English" data-i18n-aria="englishLabel">
+            <span aria-hidden="true">🇬🇧</span>
+            <span>EN</span>
+          </button>
+          <button class="language-button" type="button" data-language="hu" aria-pressed="false" aria-label="Váltás magyar nyelvre" data-i18n-aria="hungarianLabel">
+            <span aria-hidden="true">🇭🇺</span>
+            <span>HU</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <img class="hero-photo" src="six-chicks-hero.webp" alt="" aria-hidden="true" fetchpriority="high">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content page-width">
+          <p class="eyebrow hero-eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            <span data-i18n="heroEyebrow">SIX CHICKS · FRIED CHICKEN</span>
+          </p>
+          <h1 id="hero-title">
+            <span data-i18n="heroTitleOne">Good things</span>
+            <span class="hero-title-accent" data-i18n="heroTitleTwo">come crispy.</span>
+          </h1>
+          <p class="hero-description" data-i18n="heroDescription">
+            Big crunch, saucy favorites and a table worth gathering around.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-orange" href="#menu">
+              <span data-i18n="heroMenuButton">Explore the menu</span>
+              <span class="button-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-glass" href="#visit" data-i18n="heroVisitButton">Plan your visit</a>
+          </div>
+          <div class="hero-stamp" aria-hidden="true">
+            <span class="stamp-top" data-i18n="stampTop">MADE FOR</span>
+            <span class="stamp-main" data-i18n="stampMain">GOOD<br>MOOD</span>
+            <span class="stamp-bottom">SIX CHICKS ✳</span>
+          </div>
+        </div>
+        <a class="hero-scroll" href="#highlights" aria-label="Scroll to highlights" data-i18n-aria="scrollHighlights">
+          <span data-i18n="scrollText">SCROLL FOR THE GOOD STUFF</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="highlights" id="highlights" aria-label="Six Chicks highlights" data-i18n-aria="highlightsLabel">
+        <div class="highlights-inner page-width">
+          <div class="highlight-item">
+            <span class="highlight-mark highlight-mark-orange" aria-hidden="true">✳</span>
+            <span data-i18n="highlightOne">CRISPY BITES</span>
+          </div>
+          <span class="highlight-divider" aria-hidden="true"></span>
+          <div class="highlight-item">
+            <span class="highlight-mark" aria-hidden="true">♡</span>
+            <span data-i18n="highlightTwo">SAUCY SIDES</span>
+          </div>
+          <span class="highlight-divider" aria-hidden="true"></span>
+          <div class="highlight-item">
+            <span class="highlight-mark highlight-mark-orange" aria-hidden="true">✦</span>
+            <span data-i18n="highlightThree">GOOD TIMES</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+        <div class="page-width">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow-purple" data-i18n="menuEyebrow">THE MENU</p>
+              <h2 id="menu-title" data-i18n="menuTitle">Pick your kind of crispy.</h2>
+              <p class="section-intro" data-i18n="menuIntro">Find a new favorite, bring your appetite, and don’t forget the dip.</p>
+            </div>
+            <span class="menu-price-note" data-i18n="priceNote">PRICES IN HUF · FT</span>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div class="menu-card-top">
+                <span class="menu-card-number">01</span>
+                <span class="menu-card-tag" data-i18n="bowlTag">BOWL</span>
+              </div>
+              <h3 data-i18n="macTitle">Chicken Mac &amp; Cheese</h3>
+              <p class="menu-card-description" data-i18n="macDescription">Golden chicken with creamy mac &amp; cheese.</p>
+              <div class="menu-card-bottom">
+                <span class="menu-price">2,790 <small>Ft</small></span>
+                <span class="menu-card-spark" aria-hidden="true">✳</span>
+              </div>
+            </article>
+
+            <article class="menu-card menu-card-purple">
+              <div class="menu-card-top">
+                <span class="menu-card-number">02</span>
+                <span class="menu-card-tag" data-i18n="bowlTag">BOWL</span>
+              </div>
+              <h3 data-i18n="riceTitle">Chicken Rice Bowl</h3>
+              <p class="menu-card-description" data-i18n="riceDescription">Rice, chicken, salad, carrot and Six Chicks sauces.</p>
+              <ul class="menu-extras" aria-label="Optional extras" data-i18n-aria="extrasLabel">
+                <li><span data-i18n="baconExtra">Add bacon</span><strong>+290 Ft</strong></li>
+                <li><span data-i18n="cheeseExtra">Add cheese</span><strong>+150 Ft</strong></li>
+              </ul>
+              <div class="menu-card-bottom">
+                <span class="menu-price">2,490 <small>Ft</small></span>
+                <span class="menu-card-spark" aria-hidden="true">✳</span>
+              </div>
+            </article>
+
+            <article class="menu-card menu-card-orange">
+              <div class="menu-card-top">
+                <span class="menu-card-number">03</span>
+                <span class="menu-card-tag" data-i18n="bowlTag">BOWL</span>
+              </div>
+              <h3 data-i18n="friesTitle">Chicken Fries Bowl</h3>
+              <p class="menu-card-description" data-i18n="friesDescription">Crispy fries, chicken, cheese and Six Chicks sauce.</p>
+              <div class="menu-card-bottom">
+                <span class="menu-price">2,490 <small>Ft</small></span>
+                <span class="menu-card-spark" aria-hidden="true">✳</span>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="menu-card-top">
+                <span class="menu-card-number">04</span>
+                <span class="menu-card-tag" data-i18n="comboTag">COMBO</span>
+              </div>
+              <h3 data-i18n="fingersTitle">Fingers Combo</h3>
+              <p class="menu-card-description" data-i18n="fingersDescription">Chicken fingers with your choice of combo size.</p>
+              <ul class="menu-price-list">
+                <li><span data-i18n="slimCombo">Slim · 2 pcs</span><strong>2,490 Ft</strong></li>
+                <li><span data-i18n="primeCombo">Prime · 4 pcs</span><strong>2,990 Ft</strong></li>
+                <li><span data-i18n="bossCombo">Boss · 6 pcs</span><strong>3,490 Ft</strong></li>
+              </ul>
+            </article>
+
+            <article class="menu-card menu-card-purple">
+              <div class="menu-card-top">
+                <span class="menu-card-number">05</span>
+                <span class="menu-card-tag" data-i18n="comboTag">COMBO</span>
+              </div>
+              <h3 data-i18n="wingsTitle">Hot Wings Combo</h3>
+              <p class="menu-card-description" data-i18n="wingsDescription">Seasoned fries, dip, slaw and garlic toast on the side.</p>
+              <ul class="menu-price-list">
+                <li><span data-i18n="wingsSix">6 pieces</span><strong>2,890 Ft</strong></li>
+                <li><span data-i18n="wingsNine">9 pieces</span><strong>3,790 Ft</strong></li>
+              </ul>
+            </article>
+
+            <article class="menu-card menu-card-orange">
+              <div class="menu-card-top">
+                <span class="menu-card-number">06</span>
+                <span class="menu-card-tag" data-i18n="comboTag">COMBO</span>
+              </div>
+              <h3 data-i18n="burgerTitle">Burger Combo</h3>
+              <p class="menu-card-description" data-i18n="burgerDescription">A crispy chicken burger with seasoned fries, dip, slaw and garlic toast.</p>
+              <div class="menu-card-bottom">
+                <span class="menu-price">2,990 <small>Ft</small></span>
+                <span class="menu-card-spark" aria-hidden="true">✳</span>
+              </div>
+            </article>
+
+            <article class="menu-card menu-card-featured">
+              <div class="menu-card-top">
+                <span class="menu-card-number">07</span>
+                <span class="menu-card-tag" data-i18n="comboTag">COMBO</span>
+              </div>
+              <h3 data-i18n="popcornTitle">Popcorn Combo</h3>
+              <p class="menu-card-description" data-i18n="popcornDescription">Bite-sized chicken for the popcorn fans.</p>
+              <ul class="menu-price-list">
+                <li><span data-i18n="popcornEight">8 pieces</span><strong>2,890 Ft</strong></li>
+                <li><span data-i18n="popcornTwelve">12 pieces</span><strong>3,790 Ft</strong></li>
+              </ul>
+              <span class="featured-star" aria-hidden="true">✦</span>
+            </article>
+          </div>
+          <p class="menu-footnote" data-i18n="menuFootnote">Menu and prices are based on the supplied menu image and may change.</p>
+        </div>
+      </section>
+
+      <section class="story-section section-pad" id="story" aria-labelledby="story-title">
+        <div class="story-layout page-width">
+          <div class="story-image-wrap">
+            <img class="story-image" src="six-chicks-wallpaper.webp" alt="The Six Chicks character mural inside the restaurant" data-i18n-alt="storyImageAlt" loading="lazy">
+            <span class="story-image-label" data-i18n="storyImageLabel">A LITTLE SIX CHICKS ENERGY</span>
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow eyebrow-purple" data-i18n="storyEyebrow">MORE THAN A MEAL</p>
+            <h2 id="story-title" data-i18n="storyTitle">Come for the crunch. Stay for the vibe.</h2>
+            <p data-i18n="storyDescription">Color, character and comfort food come together at Six Chicks. Bring your crew, settle in, and make room for one more dip.</p>
+            <a class="text-link" href="#visit">
+              <span data-i18n="storyLink">Come say hi</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="dip-section" aria-labelledby="dip-title">
+        <div class="dip-inner page-width">
+          <div class="dip-copy">
+            <p class="eyebrow dip-eyebrow" data-i18n="dipEyebrow">THE SAUCE MAKES THE MOMENT</p>
+            <h2 id="dip-title" data-i18n="dipTitle">One more dip?<br>Always.</h2>
+            <p data-i18n="dipDescription">Find your favorite sauce and give every crispy bite its perfect partner.</p>
+            <a class="button button-light" href="#menu" data-i18n="dipButton">Find your favorite</a>
+          </div>
+          <div class="dip-image-frame">
+            <img src="six-chicks-dip.webp" alt="A crispy chicken finger dipped into sauce" data-i18n-alt="dipImageAlt" loading="lazy">
+            <span class="dip-image-badge" aria-hidden="true">DIP<br>✳<br>REPEAT</span>
+          </div>
+          <span class="dip-decoration" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="visit-section section-pad" id="visit" aria-labelledby="visit-title">
+        <div class="page-width">
+          <div class="visit-heading">
+            <p class="eyebrow eyebrow-purple" data-i18n="visitEyebrow">YOUR TABLE IS WAITING</p>
+            <h2 id="visit-title" data-i18n="visitTitle">Let’s make it a chicken day.</h2>
+            <p data-i18n="visitDescription">We’re getting the details ready. Check back soon or update these placeholders with your restaurant info.</p>
+          </div>
+          <div class="visit-grid">
+            <article class="visit-card visit-card-highlight hours-card">
+              <span class="visit-icon" aria-hidden="true">◷</span>
+              <h3 data-i18n="hoursTitle">Opening hours</h3>
+              <ul class="hours-list" aria-label="Opening hours" data-i18n-aria="hoursTitle">
+                <li><span data-i18n="dayMonday">Monday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+                <li><span data-i18n="dayTuesday">Tuesday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+                <li><span data-i18n="dayWednesday">Wednesday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+                <li><span data-i18n="dayThursday">Thursday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+                <li><span data-i18n="dayFriday">Friday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+                <li><span data-i18n="daySaturday">Saturday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+                <li><span data-i18n="daySunday">Sunday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+              </ul>
+            </article>
+            <div class="visit-details">
+              <article class="visit-card">
+                <span class="visit-icon" aria-hidden="true">⌖</span>
+                <h3 data-i18n="addressTitle">Address</h3>
+                <p data-i18n="addressPlaceholder">Budapest, Ferenc krt. 22, 1092</p>
+              </article>
+              <article class="visit-card">
+                <span class="visit-icon" aria-hidden="true">☎</span>
+                <h3 data-i18n="phoneTitle">Phone</h3>
+                <p><a class="contact-link" href="tel:+36705638866" data-i18n="phonePlaceholder">06705638866</a></p>
+              </article>
+              <article class="visit-card">
+                <span class="visit-icon" aria-hidden="true">♡</span>
+                <h3 data-i18n="socialTitle">Follow along</h3>
+                <p data-i18n="socialPlaceholder">Social links coming soon</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main page-width">
+        <a class="footer-brand" href="#home" aria-label="Six Chicks — back to top" data-i18n-aria="footerBrandHome">
+          <img src="logo_1.jpg" alt="" aria-hidden="true" loading="lazy">
+          <span data-i18n="footerBrand">GOOD MOOD. GOOD FOOD.</span>
+        </a>
+        <p data-i18n="footerMessage">Thanks for bringing your appetite.</p>
+        <a class="back-to-top" href="#home"><span data-i18n="backToTop">Back to top</span><span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom">
+        <div class="page-width footer-bottom-inner">
+          <span data-i18n="copyright">© Six Chicks. All rights reserved.</span>
+          <span data-i18n="footerMadeWith">Made for good times ✳</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
