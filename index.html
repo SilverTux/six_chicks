@@ -5,12 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Crispy chicken, saucy favorites and good times at Six Chicks. Explore our menu and plan your visit."
+      content="Enjoy crispy chicken, wings, burgers and loaded bowls at Six Chicks in Budapest. Explore the menu, check daily 11:00–22:00 hours and get directions."
       data-i18n-content="metaDescription"
     >
     <meta name="theme-color" content="#fff8ef">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title data-i18n="pageTitle">Six Chicks — Fried chicken &amp; good times</title>
+    <title data-i18n="pageTitle">Six Chicks | Fried Chicken Restaurant in Budapest</title>
+    <link rel="canonical" href="https://sixchicks.hu/">
+    <link rel="alternate" hreflang="en" href="https://sixchicks.hu/">
+    <link rel="alternate" hreflang="hu" href="https://sixchicks.hu/hu/">
+    <link rel="alternate" hreflang="x-default" href="https://sixchicks.hu/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Six Chicks">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:locale:alternate" content="hu_HU">
+    <meta property="og:title" content="Six Chicks | Fried Chicken Restaurant in Budapest">
+    <meta property="og:description" content="Enjoy crispy chicken, wings, burgers and loaded bowls at Six Chicks in Budapest. Explore the menu, check daily 11:00–22:00 hours and get directions.">
+    <meta property="og:url" content="https://sixchicks.hu/">
+    <meta property="og:image" content="https://sixchicks.hu/six-chicks-hero.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="2400">
+    <meta property="og:image:height" content="1351">
+    <meta property="og:image:alt" content="Six Chicks fried chicken restaurant in Budapest">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Six Chicks | Fried Chicken Restaurant in Budapest">
+    <meta name="twitter:description" content="Enjoy crispy chicken, wings, burgers and loaded bowls at Six Chicks in Budapest.">
+    <meta name="twitter:image" content="https://sixchicks.hu/six-chicks-hero.webp">
+    <meta name="twitter:image:alt" content="Six Chicks fried chicken restaurant in Budapest">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Six Chicks",
+        "url": "https://sixchicks.hu/",
+        "image": "https://sixchicks.hu/six-chicks-hero.webp",
+        "logo": "https://sixchicks.hu/logo_1.jpg",
+        "inLanguage": "en",
+        "servesCuisine": "Fried chicken",
+        "priceRange": "Ft 2,490–3,790",
+        "telephone": "+36705638866",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Ferenc körút 22.",
+          "addressLocality": "Budapest",
+          "postalCode": "1092",
+          "addressCountry": "HU"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday",
+            "https://schema.org/Saturday",
+            "https://schema.org/Sunday"
+          ],
+          "opens": "11:00",
+          "closes": "22:00"
+        }
+      }
+    </script>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
   </head>
@@ -29,6 +85,8 @@
           aria-controls="primary-nav"
           aria-expanded="false"
           aria-label="Open navigation"
+          data-open-label="Open navigation"
+          data-close-label="Close navigation"
           data-i18n-aria="openNavigation"
         >
           <span></span>
@@ -43,14 +101,14 @@
         </nav>
 
         <div class="language-switch" role="group" aria-label="Choose language" data-i18n-aria="languageGroup">
-          <button class="language-button is-active" type="button" data-language="en" aria-pressed="true" aria-label="Switch language to English" data-i18n-aria="englishLabel">
+          <a class="language-button is-active" href="./" lang="en" aria-current="page" aria-label="English">
             <span aria-hidden="true">🇬🇧</span>
             <span>EN</span>
-          </button>
-          <button class="language-button" type="button" data-language="hu" aria-pressed="false" aria-label="Váltás magyar nyelvre" data-i18n-aria="hungarianLabel">
+          </a>
+          <a class="language-button" href="hu/" lang="hu" hreflang="hu" aria-label="Magyar">
             <span aria-hidden="true">🇭🇺</span>
             <span>HU</span>
-          </button>
+          </a>
         </div>
       </div>
     </header>
@@ -65,11 +123,11 @@
             <span data-i18n="heroEyebrow">SIX CHICKS · FRIED CHICKEN</span>
           </p>
           <h1 id="hero-title">
-            <span data-i18n="heroTitleOne">Good things</span>
-            <span class="hero-title-accent" data-i18n="heroTitleTwo">come crispy.</span>
+            <span data-i18n="heroTitleOne">Fried chicken</span>
+            <span class="hero-title-accent" data-i18n="heroTitleTwo">in Budapest.</span>
           </h1>
           <p class="hero-description" data-i18n="heroDescription">
-            Big crunch, saucy favorites and a table worth gathering around.
+            Crispy chicken, wings, burgers and loaded bowls at Six Chicks in Budapest.
           </p>
           <div class="hero-actions">
             <a class="button button-orange" href="#menu">
@@ -115,7 +173,7 @@
             <div>
               <p class="eyebrow eyebrow-purple" data-i18n="menuEyebrow">THE MENU</p>
               <h2 id="menu-title" data-i18n="menuTitle">Pick your kind of crispy.</h2>
-              <p class="section-intro" data-i18n="menuIntro">Find a new favorite, bring your appetite, and don’t forget the dip.</p>
+              <p class="section-intro" data-i18n="menuIntro">Explore crispy chicken, wings, burgers and loaded bowls at our Budapest restaurant.</p>
             </div>
             <span class="menu-price-note" data-i18n="priceNote">PRICES IN HUF · FT</span>
           </div>
@@ -231,7 +289,7 @@
           <div class="story-copy">
             <p class="eyebrow eyebrow-purple" data-i18n="storyEyebrow">MORE THAN A MEAL</p>
             <h2 id="story-title" data-i18n="storyTitle">Come for the crunch. Stay for the vibe.</h2>
-            <p data-i18n="storyDescription">Color, character and comfort food come together at Six Chicks. Bring your crew, settle in, and make room for one more dip.</p>
+            <p data-i18n="storyDescription">Color, character and crispy comfort food come together at Six Chicks in Budapest. Bring your crew, settle in, and make room for one more dip.</p>
             <a class="text-link" href="#visit">
               <span data-i18n="storyLink">Come say hi</span>
               <span aria-hidden="true">↗</span>
@@ -261,37 +319,37 @@
           <div class="visit-heading">
             <p class="eyebrow eyebrow-purple" data-i18n="visitEyebrow">YOUR TABLE IS WAITING</p>
             <h2 id="visit-title" data-i18n="visitTitle">Let’s make it a chicken day.</h2>
-            <p data-i18n="visitDescription">We’re getting the details ready. Check back soon or update these placeholders with your restaurant info.</p>
+            <p data-i18n="visitDescription">Find us at Ferenc körút 22 in Budapest. We’re open every day from 11:00 to 22:00.</p>
           </div>
           <div class="visit-grid">
             <article class="visit-card visit-card-highlight hours-card">
               <span class="visit-icon" aria-hidden="true">◷</span>
               <h3 data-i18n="hoursTitle">Opening hours</h3>
               <ul class="hours-list" aria-label="Opening hours" data-i18n-aria="hoursTitle">
-                <li><span data-i18n="dayMonday">Monday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
-                <li><span data-i18n="dayTuesday">Tuesday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
-                <li><span data-i18n="dayWednesday">Wednesday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
-                <li><span data-i18n="dayThursday">Thursday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
-                <li><span data-i18n="dayFriday">Friday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
-                <li><span data-i18n="daySaturday">Saturday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
-                <li><span data-i18n="daySunday">Sunday</span><span data-i18n="dailyHours">11 am–10 pm</span></li>
+                <li><span data-i18n="dayMonday">Monday</span><span data-i18n="dailyHours">11:00–22:00</span></li>
+                <li><span data-i18n="dayTuesday">Tuesday</span><span data-i18n="dailyHours">11:00–22:00</span></li>
+                <li><span data-i18n="dayWednesday">Wednesday</span><span data-i18n="dailyHours">11:00–22:00</span></li>
+                <li><span data-i18n="dayThursday">Thursday</span><span data-i18n="dailyHours">11:00–22:00</span></li>
+                <li><span data-i18n="dayFriday">Friday</span><span data-i18n="dailyHours">11:00–22:00</span></li>
+                <li><span data-i18n="daySaturday">Saturday</span><span data-i18n="dailyHours">11:00–22:00</span></li>
+                <li><span data-i18n="daySunday">Sunday</span><span data-i18n="dailyHours">11:00–22:00</span></li>
               </ul>
             </article>
             <div class="visit-details">
               <article class="visit-card">
                 <span class="visit-icon" aria-hidden="true">⌖</span>
                 <h3 data-i18n="addressTitle">Address</h3>
-                <p data-i18n="addressPlaceholder">Budapest, Ferenc krt. 22, 1092</p>
+                <p data-i18n="addressPlaceholder">Ferenc körút 22., 1092 Budapest</p>
               </article>
               <article class="visit-card">
                 <span class="visit-icon" aria-hidden="true">☎</span>
                 <h3 data-i18n="phoneTitle">Phone</h3>
-                <p><a class="contact-link" href="tel:+36705638866" data-i18n="phonePlaceholder">06705638866</a></p>
+                <p><a class="contact-link" href="tel:+36705638866" data-i18n="phonePlaceholder">+36 70 563 8866</a></p>
               </article>
               <article class="visit-card">
-                <span class="visit-icon" aria-hidden="true">♡</span>
-                <h3 data-i18n="socialTitle">Follow along</h3>
-                <p data-i18n="socialPlaceholder">Social links coming soon</p>
+                <span class="visit-icon" aria-hidden="true">↗</span>
+                <h3 data-i18n="directionsTitle">Directions</h3>
+                <p><a class="contact-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Six+Chicks%2C+Ferenc+k%C3%B6r%C3%BAt+22%2C+1092+Budapest%2C+Hungary" target="_blank" rel="noopener noreferrer" data-i18n="directionsLink">Open in Google Maps</a></p>
               </article>
             </div>
           </div>

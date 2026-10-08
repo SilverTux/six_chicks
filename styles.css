@@ -186,6 +186,7 @@ button {
   cursor: pointer;
   font-size: 0.76rem;
   font-weight: 900;
+  text-decoration: none;
   transition: background 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
